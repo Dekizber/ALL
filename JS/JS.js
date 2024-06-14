@@ -52,3 +52,8 @@
 // console.log(getSubscriptionPrice("organization"));
 
 
+function isNumberInRange(start, end, number) {
+    return number >= start && number <= end;
+}
+
+console.log(isNumberInRange(10, 30, 17));
