@@ -52,8 +52,22 @@
 // console.log(getSubscriptionPrice("organization"));
 
 
-function isNumberInRange(start, end, number) {
-    return number >= start && number <= end;
-}
+// function isNumberInRange(start, end, number) {
+//     return number >= start && number <= end;
+// }
 
-console.log(isNumberInRange(10, 30, 17));
+// console.log(isNumberInRange(10, 30, 17));
+
+// function checkAccess(subType) {
+//     return subType === 'pro' || subType === 'vip';
+
+// }
+
+// console.log(checkAccess('basic'));
+
+// function toggleModalVisibility(isVisible) {
+//     return !isVisible;
+// }
+
+// console.log(toggleModalVisibility(true));
+
