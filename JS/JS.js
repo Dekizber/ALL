@@ -99,3 +99,19 @@
 
 // console.log(checkFileExtension("styles.css", ".css"));
 
+
+// function getFileName(file) {
+//     const indexFile = file.indexOf('.');
+//     if (indexFile < 0) { return file }
+//     else { return file.slice(0, indexFile) };
+
+// }
+
+// console.log(getFileName("styles.css"));
+
+// function createFileName(name, ext) {
+//     return `${name.trim()}.${ext}`
+
+// }
+
+// console.log(createFileName(" order ", "txt"));
