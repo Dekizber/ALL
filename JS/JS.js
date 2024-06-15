@@ -71,3 +71,31 @@
 
 // console.log(toggleModalVisibility(true));
 
+// function getSubstring(string, length) {
+//     return string.slice(0, length);
+// }
+
+// console.log(getSubstring("Hello world", 3));
+
+// function normalizeInput(input, to) {
+//     if (to === "upper") { return input.toUpperCase() }
+//     else if (to === "lower") { return input.toLowerCase(); }
+
+// }
+
+// console.log(normalizeInput("This ISN'T SpaM", "upper"));
+
+
+// function checkFileExtension(fileName, ext) {
+
+//     const fileNameNormalize = fileName.toLowerCase();
+//     const extNormalize = ext.toLowerCase();
+
+
+//     if (fileNameNormalize.endsWith(extNormalize)) { return "File extension matches"; }
+//     else { return "File extension does not match"; }
+
+// }
+
+// console.log(checkFileExtension("styles.css", ".css"));
+
