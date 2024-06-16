@@ -115,3 +115,71 @@
 // }
 
 // console.log(createFileName(" order ", "txt"));
+
+// let count = 0;
+
+// while (count < 10) {
+//     console.log(`Count: ${count}`);
+//     count += 3;
+// }
+
+// console.log(count(1));
+
+// function calculateTotal(number) {
+//     let count = 0;
+//     let result = 0;
+//     while (count <= number) {
+//         result += count;
+//         count += 1;
+//     }
+//     return result
+// }
+
+// console.log(calculateTotal(3));
+
+// for (let i = 4; i <= 20; i += 2.5) {
+//     console.log(i);
+// }
+
+// function calculateTotal(number) {
+//     let total = 0;
+//     for (let i = 1; i <= number; i++) {
+//         total += i;
+//     }
+//     return total;
+// }
+
+// console.log(calculateTotal(5));
+
+// function calculateEvenTotal(number) {
+//     let total = 0;
+//     for (let i = 1; i <= number; i++) {
+//         if (i % 2 === 0) {
+//             total += i;
+//         }
+//     }
+//     return total;
+// }
+
+// console.log(calculateEvenTotal(7));
+
+
+// const start = 6;
+// const end = 17;
+// let number = start;
+// for (let i = start; i <= end; number++) {
+//     if (number % 5 === 0) {
+//         break;
+//     }
+// }
+
+// function findNumber(start, end, divisor) {
+//     for (let i = start; i <= end; i++) {
+//         if (i % divisor === 0) {
+//             return i;
+//         }
+
+//     }
+// }
+// console.log(findNumber(2, 6, 5));
+
