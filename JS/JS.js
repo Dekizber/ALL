@@ -183,3 +183,85 @@
 // }
 // console.log(findNumber(2, 6, 5));
 
+// function test(len) {
+//     let str = '';
+
+//     for (let i = 0; i < len; i++) {
+//         for (let j = 0; j < len; j++) {
+//             const isFirstCol = j === 0;
+//             const isLastCol = j === len - 1;
+//             const isFirstRow = i === 0;
+//             const isLastRow = i === len - 1;
+
+//             const isDiagonal = i === j;
+
+//             const isEvenCol = j % 2 === 0;
+
+//             const fill = isFirstCol || isLastCol || isFirstRow || isLastRow;
+
+//             if (fill) str += '#';
+//             else if (isDiagonal) str += '0';
+//             else if (isEvenCol) str += '|';
+//             else str += ' ';
+//         }
+
+//         str += '\n';
+//     }
+
+//     console.log(str);
+// }
+
+// test(50)
+
+
+// function getOrderQuantity(order) {
+
+//     const result = order.length;
+//     if (order.length >= 0) { return result; }
+
+// }
+
+// console.log(getOrderQuantity(["apple", "peach", "pear", "banana"]));
+
+// function getLastElementMeta(array) {
+//     const lastElementIndex = array.length - 1;
+//     const result = [lastElementIndex, array[lastElementIndex]]
+//     return result;
+// }
+
+// console.log(getLastElementMeta(["apple", "peach", "pear", "banana"]));
+
+// function getExtremeElements(array) {
+
+//     const getExtremeElements = array.length - 1;
+//     const result = [array[0], array[getExtremeElements]];
+//     return result;
+// }
+// console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));
+
+// function getLength(array) {
+// const rowArray = array.join('');
+// const sizeArray = rowArray.length;
+// return sizeArray;
+// }
+// console.log(getLength(["Mango", "hurries", "to", "the", "train"]));
+
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//     const masWords = message.split(' ');
+//     const quantityWords = masWords.length;
+//     const finalPrice = quantityWords * pricePerWord;
+//     return finalPrice
+// }
+
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 10));
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// const firstTwoEls = fruits.slice(0, 2);
+// console.log(firstTwoEls);
+
+// const oldClients = ["Mango", "Ajax", "Poly", "Kiwi"];
+// const newClients = ["Peach", "Houston"];
+// const allClients = oldClients.concat(newClients);
+// console.log(allClients);
