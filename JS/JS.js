@@ -71,6 +71,7 @@
 
 // console.log(toggleModalVisibility(true));
 
+<<<<<<< Updated upstream
 // function getSubstring(string, length) {
 //     return string.slice(0, length);
 // }
@@ -277,3 +278,19 @@ function getSlice(array, value) {
 }
 
 console.log(getSlice(["Mango", "Poly", "Ajax"], "Poly"));
+=======
+// fullName.toLowercase();
+// firstName.toLowercase();
+
+// function checkForName(fullName, firstName) {
+//     const fullNameLower = fullName.toLowerCase();
+//     const firstNameLower = firstName.toLowerCase();
+
+//     return fullNameLower.includes(firstNameLower);
+// }
+
+
+
+
+console.log(checkForName("Jason Neis", "Jason"));
+>>>>>>> Stashed changes
