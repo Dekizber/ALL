@@ -266,3 +266,14 @@
 // const allClients = oldClients.concat(newClients);
 // console.log(allClients);
 
+function getSlice(array, value) {
+    const newArr = array.indexOf(value);
+    if (newArr !== -1) {
+        return [];
+    }
+    else { return array.slice(0, newArr + 1) }
+
+
+}
+
+console.log(getSlice(["Mango", "Poly", "Ajax"], "Poly"));
