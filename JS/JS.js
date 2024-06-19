@@ -342,4 +342,30 @@
 //     return newArr;
 // }
 
-// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27])); 
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
+
+// function calculateTotalPrice(order) {
+//     let total = 0;
+//     for (const number of order) {
+//         total += number;
+
+//     }
+//     return total;
+// }
+
+// console.log(calculateTotalPrice([164, 48, 291]));
+
+// function createReversedArray() {
+//     const newArr = Array.from(arguments);
+//     return newArr.toReversed();
+// }
+
+// console.log(createReversedArray(12, 85, 37, 4));
+
+
+// function calculateTax(amount, taxRate = 0.2) {
+//     const total = amount * taxRate;
+//     return total;
+// }
+
+// console.log(calculateTax(100,));
