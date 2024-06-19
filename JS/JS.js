@@ -71,7 +71,19 @@
 
 // console.log(toggleModalVisibility(true));
 
-<<<<<<< Updated upstream
+// fullName.toLowercase();
+// firstName.toLowercase();
+
+// function checkForName(fullName, firstName) {
+//     const fullNameLower = fullName.toLowerCase();
+//     const firstNameLower = firstName.toLowerCase();
+
+//     return fullNameLower.includes(firstNameLower);
+// }
+
+// console.log(checkForName("Jason Neis", "Jason"));
+
+
 // function getSubstring(string, length) {
 //     return string.slice(0, length);
 // }
@@ -267,30 +279,67 @@
 // const allClients = oldClients.concat(newClients);
 // console.log(allClients);
 
-function getSlice(array, value) {
-    const newArr = array.indexOf(value);
-    if (newArr !== -1) {
-        return [];
-    }
-    else { return array.slice(0, newArr + 1) }
-
-
-}
-
-console.log(getSlice(["Mango", "Poly", "Ajax"], "Poly"));
-=======
-// fullName.toLowercase();
-// firstName.toLowercase();
-
-// function checkForName(fullName, firstName) {
-//     const fullNameLower = fullName.toLowerCase();
-//     const firstNameLower = firstName.toLowerCase();
-
-//     return fullNameLower.includes(firstNameLower);
+// function getSlice(array, value) {
+//     const newArr = array.indexOf(value);
+//     if (newArr === -1) {
+//         return [];
+//     }
+//     else { return array.slice(0, newArr + 1) }
 // }
 
+// console.log(getSlice(["Mango", "Poly", "Ajax"], "Poly"));
 
 
+// function createArrayOfNumbers(min, max) {
+//     let numberArr = [];
+//     for (let index = min; index <= max; index++) {
+//         numberArr.push(index);
+//     }
+//     return numberArr;
+// }
+// console.log(createArrayOfNumbers(1, 3));
 
-console.log(checkForName("Jason Neis", "Jason"));
->>>>>>> Stashed changes
+// function calculateTotalPrice(order) {
+//     let quantNum = 0;
+//     for (let i = 0; i < order.length; i += 1) {
+//         quantNum += order[i];
+//     }
+//     return quantNum;
+
+// }
+
+// console.log(calculateTotalPrice([164, 48, 291]));
+
+
+// function getEvenNumbers(start, end) {
+//     let quantNum = [];
+//     for (let i = start; i <= end; i += 1) {
+//         if (i % 2 === 0) { quantNum.push(i); }
+//     }
+//     return quantNum;
+// }
+
+// console.log(getEvenNumbers(3, 11));
+
+// function checkStorage(storage, item) {
+//     const lowCaseItem = item.toLowerCase();
+//     if (storage.includes(lowCaseItem)) {
+//         return `${lowCaseItem} is available to order!`
+
+//     } else { return 'Sorry! We are out of stock!' }
+
+// }
+
+// console.log(checkStorage(["apple", "plum", "pear"], "plum"));
+
+// function getCommonElements(array1, array2) {
+//     let newArr = [];
+
+//     for (let index = 0; index < array2.length; index++) {
+//         let element = array1[index];
+//         if (array2.includes(element)) { newArr.push(element) }
+//     }
+//     return newArr;
+// }
+
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27])); 
