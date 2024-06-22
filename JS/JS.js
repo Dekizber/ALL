@@ -369,3 +369,54 @@
 // }
 
 // console.log(calculateTax(100,));
+
+// const apartment = {
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+// };
+
+// const keys = [];
+// const values = [];
+// for (const key in apartment) {
+//     keys.push(key);
+//     values.push(apartment[key]);
+// }
+
+// console.log(keys);
+// console.log(values);
+
+// const apartment = {
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+// };
+// const values = [];
+// const keys = Object.keys(apartment);
+// for (const i of keys) {
+//     values.push(i)
+// }
+
+// console.log(values);
+
+// Виконай рефакторинг функції countProps(object), замінивши перебір ключів за допомогою циклу for…in на метод Object.keys()
+// для отримання масиву властивостей.Функція має повернути кількість властивостей в об'єкті object.
+
+// function countProps(object) {
+//     const keys = Object.keys(object);
+//     return keys.length;
+// }
+
+// console.log(countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }));  // повертає 3
+
+// function countTotalSalary(salaries) {
+//     let totalSalary = 0;
+//     const money = Object.values(salaries);
+//     for (const i of money) {
+//         totalSalary += i
+//     }
+//     return totalSalary;
+// }
+
+// console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 }));
+
