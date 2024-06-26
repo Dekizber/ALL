@@ -603,3 +603,106 @@
 // console.log(allScores);
 // console.log(bestScore);
 // console.log(worstScore);
+
+
+// function makePizza() {
+//     return "Your pizza is being prepared, please wait.";
+// }
+
+// const result = makePizza();
+// const pointer = makePizza;
+
+// console.log(result);
+// console.log(makePizza);
+
+// !==================================================================================
+// function greet(name) {
+//     console.log(`Welcome ${name}!`);
+// }
+
+// function notify(name) {
+//     console.log(`Dear ${name}, your room will be ready in 30 minutes`);
+// }
+
+// function registerGuest(name, callback) {
+//     console.log(`Registering ${name}!`);
+//     callback(name);
+// }
+
+// registerGuest("Mango", greet);  // "Registering Mango!"
+// "Welcome Mango!"
+
+// registerGuest("Mango", notify); // "Registering Mango!"
+// "Dear Mango, your room will be ready in 30 minutes"
+
+// function deliverPizza(pizzaName) {
+//     return `Delivering ${pizzaName} pizza.`;
+// }
+
+// function makePizza(pizzaName) {
+//     return `Pizza ${pizzaName} is being prepared, please wait...`;
+// }
+
+// function makeMessage(pizzaName, callback) {
+//     return callback(pizzaName);
+// }
+
+// console.log(makeMessage("Royal Grand", makePizza));
+// console.log(makeMessage("Ultracheese", deliverPizza));
+
+// function makePizza(pizzaName, callback) {
+//     console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//     callback(pizzaName);
+// }
+
+// makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//     console.log(`Delivering pizza ${pizzaName}`);
+// });
+
+// makePizza("Ultracheese", function eatPizza(pizzaName) {
+//     console.log(`Eating pizza ${pizzaName}`)
+// });
+
+// function calculateTotalPrice(orderedItems) {
+//     let totalPrice = 0;
+
+//     orderedItems.forEach(function (number) {
+//         totalPrice += number;
+//     });
+
+//     return totalPrice;
+// }
+
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+//!================================================
+
+// Функція filterArray(numbers, value) приймає першим параметром масив чисел numbers і повертає новий масив, в якому будуть тільки ті елементи оригінального масиву, які більші за значення другого параметра числа value.Якщо таких значень не буде знайдено, функція повертає порожній масив.
+
+// Виконай рефакторинг функції таким чином, щоб замість циклу for, вона використовувала метод forEach.
+
+// function filterArray(numbers, value) {
+//     let arrNums = [];
+
+//     numbers.forEach(function (number) {
+//         if (number > value) { arrNums.push(number) }
+
+//     });
+//     return arrNums;
+// }
+
+// console.log(filterArray([12, 24, 8, 41, 76], 80)); //повертає[24, 41, 76]
+// !================================================
+
+// calculateTotalPrice = (quantity, pricePerItem) => {
+//     return quantity * pricePerItem;
+// }
+
+// console.log(calculateTotalPrice(3, 400));
+// !================================================
+
+// calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
+
+// console.log(calculateTotalPrice(100, 200));
+//!=================================================
+
