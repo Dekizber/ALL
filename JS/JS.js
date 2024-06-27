@@ -706,6 +706,7 @@
 // console.log(calculateTotalPrice(100, 200));
 //!=================================================
 
+<<<<<<< Updated upstream
 // const planets = ["Earth", "Mars", "Venus", "Jupiter"];
 
 // const planetsLengths = planets.map(planet => planet.length)
@@ -910,3 +911,46 @@
 // };
 // console.log(getUsersWithEyeColor(users, color));
 //!===============================================================
+=======
+// Виконай рефакторинг функції calculateTotalPrice(orderedItems), замінивши її оголошення на стрілочну функцію.Також заміни колбек - функцію, передану в метод forEach(), на стрілочну функцію.
+
+// Оголошена змінна calculateTotalPrice
+// Змінній calculateTotalPrice присвоєна стрілочна функція з параметром(orderedItems)
+// Для перебирання масиву orderedItems використаний метод forEach
+// Колбек для методу forEach - це стрілочна функція
+// Виклик функції calculateTotalPrice([12, 85, 37, 4]) повертає 138
+// Виклик функції calculateTotalPrice([164, 48, 291]) повертає 503
+// Виклик функції calculateTotalPrice([412, 371, 94, 63, 176]) повертає 1116
+// Виклик функції з випадковими, але валідними аргументами, повертає правильне значення
+
+// const calculateTotalPrice = (orderedItems) => {
+//     let totalPrice = 0;
+
+//     orderedItems.forEach(item => totalPrice += item);
+
+//     return totalPrice;
+// }
+
+// console.log(calculateTotalPrice([164, 48, 291])); //повертає 138
+
+//!========================================================
+
+
+
+// const filterArray = (numbers, value) => {
+//     const filteredNumbers = [];
+
+//     numbers.forEach((number) => {
+//         if (number > value) {
+//             filteredNumbers.push(number);
+//         }
+//     });
+
+//     return filteredNumbers;
+// }
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3));  //повертає[4, 5]
+
+
+
+>>>>>>> Stashed changes
