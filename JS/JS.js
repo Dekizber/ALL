@@ -706,7 +706,6 @@
 // console.log(calculateTotalPrice(100, 200));
 //!=================================================
 
-<<<<<<< Updated upstream
 // const planets = ["Earth", "Mars", "Venus", "Jupiter"];
 
 // const planetsLengths = planets.map(planet => planet.length)
@@ -911,7 +910,6 @@
 // };
 // console.log(getUsersWithEyeColor(users, color));
 //!===============================================================
-=======
 // Виконай рефакторинг функції calculateTotalPrice(orderedItems), замінивши її оголошення на стрілочну функцію.Також заміни колбек - функцію, передану в метод forEach(), на стрілочну функцію.
 
 // Оголошена змінна calculateTotalPrice
@@ -950,7 +948,26 @@
 // }
 
 // console.log(filterArray([1, 2, 3, 4, 5], 3));  //повертає[4, 5]
+//!===================================================================
 
+// const masiv = [2, 4, 0, 100, 4, 11, 2602, 36] //-- > 11(the only odd number)
+// const masiv2 = [160, 3, 1719, 19, 11, 13, -21] //-- > 160(the only even number)
 
+// function findOutlier(integers) {
+//     const arr = integers.some(num => num);
+//     return arr;
+//     console.log(num);
+// }
 
->>>>>>> Stashed changes
+// console.log(findOutlier(masiv));
+//!+==================================================================================
+// const players = [
+//     { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+//     { name: "Poly", playtime: 469, gamesPlayed: 2 },
+//     { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+//     { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+// ];
+
+// const totalAveragePlaytimePerGame = players.reduce((acc, player) => acc += (player.playtime / player.gamesPlayed), 0);
+// console.log(totalAveragePlaytimePerGame);
+//!=================================================================
