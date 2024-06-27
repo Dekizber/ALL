@@ -971,3 +971,71 @@
 // const totalAveragePlaytimePerGame = players.reduce((acc, player) => acc += (player.playtime / player.gamesPlayed), 0);
 // console.log(totalAveragePlaytimePerGame);
 //!=================================================================
+// const books = [
+//     {
+//         title: "The Last Kingdom",
+//         author: "Bernard Cornwell",
+//         rating: 8.38,
+//     },
+//     {
+//         title: "Beside Still Waters",
+//         author: "Robert Sheckley",
+//         rating: 8.51,
+//     },
+//     {
+//         title: "The Dream of a Ridiculous Man",
+//         author: "Fyodor Dostoevsky",
+//         rating: 7.75,
+//     },
+//     {
+//         title: "Redder Than Blood",
+//         author: "Tanith Lee",
+//         rating: 7.94,
+//     },
+//     {
+//         title: "Enemy of God",
+//         author: "Bernard Cornwell",
+//         rating: 8.67,
+//     },
+// ];
+
+// const sortedByAuthorName = books.toSorted((firstBook, secondBook) => firstBook.author.localeCompare(secondBook.author));
+
+// const sortedByReversedAuthorName = books.toSorted((firstBook, secondBook) => secondBook.author.localeCompare(firstBook.author));
+
+// const sortedByAscendingRating = books.toSorted((firstBook, secondBook) => firstBook.rating - secondBook.rating);
+
+// const sortedByDescentingRating = books.toSorted((firstBook, secondBook) => secondBook.rating - firstBook.rating);
+
+// console.log(sortedByAuthorName);
+// console.log(sortedByReversedAuthorName);
+// console.log(sortedByAscendingRating);
+// console.log(sortedByDescentingRating);
+//!==========================================================================
+const books = [
+    {
+        title: "The Last Kingdom",
+        author: "Bernard Cornwell",
+        rating: 8.38,
+    },
+    {
+        title: "Beside Still Waters",
+        author: "Robert Sheckley",
+        rating: 8.51,
+    },
+    {
+        title: "The Dream of a Ridiculous Man",
+        author: "Fyodor Dostoevsky",
+        rating: 7.75,
+    },
+    { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+    {
+        title: "The Dreams in the Witch House",
+        author: "Howard Lovecraft",
+        rating: 8.67,
+    },
+];
+const MIN_BOOK_RATING = 8;
+
+const names = books.filter(book => book.rating > MIN_BOOK_RATING).map(book => book.author).toSorted((book1, book2) => book1.localeCompare(book2));
+console.log(names);
